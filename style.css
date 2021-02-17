@@ -1,0 +1,35 @@
+.container{
+    max-width: 600px;
+}
+.btn{
+    background: #43d9be;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn:focus{
+    outline: none !important;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.username::first-letter {
+    text-transform: uppercase;
+}
+
+.time {
+    font-size: .7em;
+    color: #999;
+}
+
+.update-mssg {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #43d9be;
+    text-align: center;
+}

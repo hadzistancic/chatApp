@@ -1,7 +1,7 @@
 // render chat templates to the DOM -- done
 // when the chat room changes clear the list of chats -- done
 
-class ChatUI {
+export default class ChatUI {
     constructor(list) {
         this.list = list;
     }

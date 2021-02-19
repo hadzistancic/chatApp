@@ -1,3 +1,6 @@
+import ChatUI from './ui.js'
+import Chatroom from './chat.js'
+
 //dom element
 const list = document.querySelector(".chat-list");
 const messageForm = document.querySelector(".new-chat");
